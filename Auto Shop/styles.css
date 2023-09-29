@@ -1,0 +1,140 @@
+header{
+      background-color: rgb(46, 46, 46);
+      padding: 20px;
+      padding-bottom: 40px;
+}
+body{
+      margin: 0;
+}
+.home-button,.about-us{
+      float: left;
+      margin-left:100px;
+      text-decoration: none;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 5px;
+}
+.services-button,.contact-us{
+      float: right;
+      margin-right: 100px;
+      text-decoration: none;
+      color: white;
+      letter-spacing: 5px;
+      font-family: 'Montserrat', sans-serif;
+}
+.background{
+      width: 100%;
+      margin-top: -5px;
+}
+.logo{
+      position: absolute;
+      margin-left: 44%;
+      margin-top: -20px;
+      padding: 5px;
+      padding-left: 40px;
+      padding-right: 40px;
+      background-color: red;
+      border-radius: 0px 0px 40% 40%;
+}
+.heading{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      
+      
+}
+.heading > h1,h5{
+      margin: 0;
+      font-size: x-large;
+      letter-spacing: 5px;
+      
+}
+.heading > h1{
+      font-size: 75px;
+      letter-spacing: 20px;
+      font-weight: lighter;
+      margin-top: 10px;
+}
+.discount{
+      margin-top: 25px;
+}
+.book-button{
+      margin-top: 55px;
+      padding: 25px 70px 25px 70px;     
+      font-family: 'Montserrat', sans-serif;
+      font-size: large;
+      letter-spacing: 3px;
+      background-color: white;
+      border: none;
+      cursor: pointer;
+}
+.services-tab{
+      background-color: rgb(228, 225, 225);
+      margin-top: -5px;
+      padding-bottom: 20px;
+      padding-top: 10px;
+}
+.services-heading{
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      margin: 0;
+      padding-top: 50px;
+}
+.services-grid{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin: 50px;
+}
+.grid-item{
+      border: 1px solid rgb(179, 179, 179);
+      padding: 10px 40px 10px 40px;
+      height: 250px;
+      
+}
+.grid-item:hover{
+      background-color: rgb(238, 238, 238);
+}
+.grid-head{
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      font-size: x-large;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+}
+.grid-content{
+      text-align: left;
+      text-align: justify;
+      font-family: 'Montserrat', sans-serif;
+}
+.book-grid{
+      text-decoration: none;
+      color: rgb(254, 73, 73);
+      font-family: 'Montserrat', sans-serif;
+}
+.contact-us-tab{
+      background-color: red;
+      padding: 20px 50px 20px 50px;
+      
+}
+.number,.contact{
+      margin: 0;
+      display: inline;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: large;
+      letter-spacing: 3px;
+}
+.contact{
+      float: right;
+}
+.grid-item > img{
+      width: 50px;
+      float: right;
+}
